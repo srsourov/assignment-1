@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:' open sans',sans-serif;
+    font-family: 'Jost', sans-serif;
+
+}
+
+/* banner styles */
+
+.banner-section {
+    background-image: url('../images/banner/banner2.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.banner-section-text{
+    width: 40%;
+    margin: 0 0 0 auto;
+    padding: 30vh 150px;
+    height: 100vh;
+    text-align: right;
+}
+h1 {
+    font-size: 50px;
+    line-height: 1.3em;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+button {
+    padding: 15px 50px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+/* second section styles */
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.second-sec-img {
+    width: 40%;
+    text-align: left;
+}
+.second-sec-text {
+    width: 30%;
+    margin: auto 0;
+}
+.second-sec-img img {
+    width: 70%;
+}
+
+.list {
+    line-height: 2em;
+}
+.list-align{
+    margin-bottom: 10px;
+}
+
+/* plans styles */
+
+.icon{
+    margin-right: 20px;
+}
+
+.plans{
+    text-align: center;
+    border-radius: 10px;
+    margin: 80px 0px 0px 0px;
+}
+.plans-title{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 40px;
+}
+.skill{
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* gradiant styles */
+
+#gradiant{
+    height: 200px;
+    width: 70%;
+    background-image: url(../images/gradient2.png), url('../images/watch.png');
+    padding: 50px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+}
+#gradiant h2{
+    font-size: 40px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+.grad-button {
+    background-color: #fff;
+    color: #FD6E0A;
+}
+
+
+
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 80px;
+    background: rgba(0, 0, 0, 0.824);
+    padding: 130px 200px;
+    height: 230px;
+}
+.set-title{
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
+.contact-description{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.subscribe-text{
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+input{
+    height: 50px;
+    width: 325px;
+    color: white;
+    background:rgba(0, 0, 0, 0.824);
+    border: 1px solid whitesmoke;
+    border-radius: 0.5em;
+    padding: 0 10px;
+}
+.sub-button{
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: white;
+}
